@@ -10,7 +10,6 @@ class Livro:
         self.cover_image = cover_image
 
     def to_dict(self):
-        # Convert Book object to a dictionary
         return {
             'title': self.title,
             'author': self.author,
@@ -24,7 +23,6 @@ class Livro:
 
     @classmethod
     def from_dict(cls, book_dict):
-        # Create a Book object from a dictionary
         return cls(
             title=book_dict['title'],
             author=book_dict['author'],
