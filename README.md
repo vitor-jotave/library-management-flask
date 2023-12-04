@@ -18,7 +18,7 @@ O projeto utiliza uma estrutura de dados chamada Árvore AVL para gerenciar os r
 1. A aplicação está disponível publicamente em `https://library-management-bice.vercel.app/`
 
 ### Ambiente Local
-1. Certifique-se de ter o Python e o Git instalado em sua máquina.
+1. Certifique-se de ter o Python da versão 3 para cima e o Git instalado em sua máquina.
 2. Clone o repositório para o seu ambiente local:
 
     ```bash
