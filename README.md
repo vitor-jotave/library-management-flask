@@ -43,7 +43,7 @@ O projeto utiliza uma estrutura de dados chamada Árvore AVL para gerenciar os r
     flask run
     ```
 
-5. Acesse o aplicativo em seu navegador através do link `http://localhost:8000`.
+5. Acesse o aplicativo em seu navegador através do link `http://localhost:5000` ou `http://localhost:8000`.
 
 ## Instruções de Uso
 - Após executar o aplicativo, acesse a página principal para visualizar os registros de livros.
