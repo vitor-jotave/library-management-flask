@@ -138,7 +138,7 @@ class ArvoreAVL:
     def _busca_pelo_genero(self, raiz, genre):
         resultado = []
         if raiz:
-            if raiz.livro.genero.lower().find(genre.lower()) != -1:
+            if raiz.livro.genre.lower().find(genre.lower()) != -1:
                 resultado.append(raiz.livro)
             resultado.extend(self._busca_pelo_genero(raiz.esquerda, genre))
             resultado.extend(self._busca_pelo_genero(raiz.direita, genre))
